@@ -4,7 +4,7 @@
 [NodeJS v10.16.4 or higher](https://nodejs.org/en/)
 
 ## Installation
-Open the [GitBash](https://git-scm.com/) and input the commands:
+Open the terminal of your preference and input the commands:
 
 `git clone https://github.com/danieladuarteng/studying-js.git`
 
