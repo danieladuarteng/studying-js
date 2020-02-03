@@ -14,8 +14,8 @@ To run the project enter:
 
 `node challenge-01.js`
 
-## For learning: 
-Access: [Wiki](https://github.com/danieladuarteng/studying-js/wiki)
+## Wiki: 
+Documentation and explanation about all exercise are be described on: [Wiki](https://github.com/danieladuarteng/studying-js/wiki)
 
 ## License
 
