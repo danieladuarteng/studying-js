@@ -14,6 +14,9 @@ To run the project enter:
 
 `node challenge-01.js`
 
+## For learning: 
+Access: [Wiki](https://github.com/danieladuarteng/studying-js/wiki)
+
 ## License
 
 This project uses the license [MIT](https://choosealicense.com/licenses/mit/)
