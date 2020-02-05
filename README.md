@@ -24,11 +24,11 @@ To follow the evolution of this repository see: [Project](https://github.com/dan
 
 ## For bugs, problems or questions
 
-Open (issue)[https://github.com/danieladuarteng/studying-js/issues/new]
+Open [issue](https://github.com/danieladuarteng/studying-js/issues/new)
 
 ## Contribution
 
-Open (pull request)[https://github.com/danieladuarteng/studying-js/compare]
+Open [pull request](https://github.com/danieladuarteng/studying-js/compare)
 
 ## License
 
