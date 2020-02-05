@@ -12,6 +12,8 @@ Open the terminal of your preference and input the commands:
 ## Run:
 To run the project enter:
 
+`cd challenges`
+
 `node challenge-01.js`
 
 ## Wiki: 
