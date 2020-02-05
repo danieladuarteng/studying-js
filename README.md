@@ -22,13 +22,9 @@ Documentation and explanation about all exercise are be described on: [Wiki](htt
 ## Project:
 To follow the evolution of this repository see: [Project](https://github.com/danieladuarteng/studying-js/projects/1)
 
-## For bugs, problems, questions, suggestions, compliments or talking about this project
-
-Open [issue](https://github.com/danieladuarteng/studying-js/issues/new)
-
 ## How to contribute to this project?
 
-Open [pull request](https://github.com/danieladuarteng/studying-js/compare) 
+Open [pull request](https://github.com/danieladuarteng/studying-js/compare) or [issue](https://github.com/danieladuarteng/studying-js/issues/new)
 
 ## License
 
