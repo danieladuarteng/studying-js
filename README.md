@@ -12,7 +12,9 @@ Open the terminal of your preference and input the commands:
 ## Run:
 To run the project enter:
 
-`node challenge-01.js`
+`cd challenges`
+
+`node challenge-01.js` or other file
 
 ## Wiki: 
 Documentation and explanation about all exercise are be described on: [Wiki](https://github.com/danieladuarteng/studying-js/wiki)
