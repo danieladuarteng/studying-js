@@ -22,6 +22,14 @@ Documentation and explanation about all exercise are be described on: [Wiki](htt
 ## Project:
 To follow the evolution of this repository see: [Project](https://github.com/danieladuarteng/studying-js/projects/1)
 
+## For bugs, problems or questions
+
+Open (issue)[https://github.com/danieladuarteng/studying-js/issues/new]
+
+## Contribution
+
+Open (pull request)[https://github.com/danieladuarteng/studying-js/compare]
+
 ## License
 
 This project uses the license [MIT](https://choosealicense.com/licenses/mit/)
