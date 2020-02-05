@@ -29,10 +29,11 @@ function challenge02() {
   );
 
   function multiplicacao(x, y, z) {
-    if (x === undefined || y === undefined || z === undefined) {
-      return "Preencha os valores corretamente!";
+    let message = "Preencha os valores corretamente!";
+    if (!x || !y || !z) {
+      return message;
     }
-    return (x * y * z) + 2;
+    return  message = (x * y * z) + 2;
   }
 
   console.log("Função multiplicação sem um dos valores", multiplicacao(1, 2));
@@ -49,17 +50,15 @@ function challenge02() {
       return x + y;
     } else if (x && y && x) {
       return (x + y) / z;
-    } else if (!x && !y && !z) {
+    } else{
       return false;
-    } else {
-      return null;
-    }
+    } 
   }
 
-  console.log("Somente um argumento passado", checaArgumentos(2));
-  console.log("Somente dois argumentos passados", checaArgumentos(2, 3));
-  console.log("Com todos argumentos passados", checaArgumentos(2, 3, 7));
-  console.log("Com nenhum argumento passado", checaArgumentos());
+  console.log("Quando somente um argumento for passado, deve retornar o seu valor -> ", checaArgumentos(2));
+  console.log("Quando somente dois argumentos forem passados, deve retornar sua soma -> ", checaArgumentos(2, 3));
+  console.log("Quando todos argumentos forem passados, deve somar o primeiro valor com o segundo e dividir pelo terceiro ->", checaArgumentos(2, 3, 7));
+  console.log("Quando nenhum argumento for passado, deve retornar false -> ", checaArgumentos());
 }
 
 challenge02();
