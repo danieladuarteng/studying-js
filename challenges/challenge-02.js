@@ -43,13 +43,13 @@ function challenge02() {
   );
 
   function checaArgumentos(x, y, z) {
-    if (x !== undefined && y === undefined && z === undefined) {
+    if (x && !y && !z) {
       return x;
-    } else if (x !== undefined && y !== undefined && z === undefined) {
+    } else if (x && y && !z) {
       return x + y;
-    } else if (x !== undefined && y !== undefined && z !== undefined) {
+    } else if (x && y && x) {
       return (x + y) / z;
-    } else if (x === undefined && y === undefined && z === undefined) {
+    } else if (!x && !y && !z) {
       return false;
     } else {
       return null;
