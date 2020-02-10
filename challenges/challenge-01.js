@@ -2,77 +2,77 @@ function challenge01() {
   let myVar; // usamos let aqui porque estou inicializando sem valor
 
   console.log(
-    "Como declaro uma variável chamada `myVar`, sem valor? \nAssim: let myVar\n"
+    "How do I declare a variable called 'myVar', withou value? \nThereby: let myVar\n"
   );
+
 
   myVar = 10;
   
-  console.log("Como atribuo valor a myVar? \nAssim: myVar = 10;\n")
+  console.log("How I assign value to  myVar? \Thereby: myVar = 10;\n")
 
 
-  let soma = 15 + 8;
+  let sum = 15 + 8;
 
-  console.log("Como declaro uma variável chamada soma que some os valores 15 e 8? \nAssim: let soma = 15 + 8;\n");
+  console.log("How do I declare a variable called 'sum' that sum the values 15 and 8? \nThereby: let sum = 15 + 8;\n");
 
 
-  soma++;
+  sum++;
 
   console.log(
-    "Como atribuo à variável soma todo o valor dela, somando 1, " +
-      "usando o operador de soma abreviado? \nAssim: soma++;\n"
+    "How I assign the variable 'sum' your value, more 1, using the abbreviated sum operator? \nThereby: sum++;\n"
   );
 
 
-  soma *= 3;
+  sum *= 3;
 
   console.log(
-    "Como atribuo à variável soma todo o valor dela, multiplicando por 3, " +
-      "usando o operador de multiplicação abreviado? \nAssim: soma*=3;\n"
+    "How I assign the variable 'sum' your value, multiplying for 3, " +
+      "using the abbreviated multiplication operator? \nThereby: sum*=3;\n"
   );
 
 
-  console.log("Qual o valor da variável soma até aqui?", soma, "\n");
-
+  console.log("What the sum variable value until here?", sum, "\n");
+  
 
   const souninja = true;
 
   console.log(
-    "Como declaro a variável souninja e atribuo o valor booleando que representa verdadeiro? " +
-      "Assim: const souninja = true;\n"
+    "How do I declare a variable called 'souninja' and assign the value boolean that the represents true value? " +
+      "Thereby: const souninja = true;\n"
   );
 
 
-  const comida = ["arroz", "feijão", "ovo"];
+  const food = ["rice", "beans", "egg"];
 
   console.log(
-    "Como crio uma variável chamada comida que possua um array com os valoreS: 'arroz', 'feijão' e 'ovo'?" +
-      "\nAssim: const comida = ['arroz', 'feijão', 'ovo'];\n"
+    "How I create a variavel called 'food' that have a array with the values: 'rice', 'beans' e 'egg'?" +
+      "\nThereby: const food = ['rice', 'beans', 'egg'];\n"
   );
 
 
-  console.log(comida[1]);
+  console.log(food[1]);
 
   console.log(
-    "Como imprimo o valor de feijão que está na variável comida? " +
-      "\nAssim: console.log(comida[1]);\n"
+    "How I print the beans value that there is in variable foodHow? " +
+      "\nThereby: console.log(food[1]);\n"
   );
 
 
-  soma === myVar;
+  sum === myVar;
   
   console.log(
-    "Como verifico se soma é igual a myVar? \nAssim: soma === myVar; \n"
+    "How I check if 'sum' is equal the 'myVar'? \nThereby: sum === myVar; \n"
   );
 
 
-  myVar <= soma;
+  myVar <= sum;
   console.log(
-    "Como verifico se myvar é menor ou igual que a variável soma? \nAssim: myVar <= soma;\n"
+    "How I check if 'myVar' is smaller or equal that variable 'sum'? \nThereby: myVar <= sum;\n"
   );
 
 
-  return function divisao(x, y) {
-    return console.log('Retorno da função divisão: 10 / 5 =', x / y);
+  return function division(x, y) {
+    return console.log("The return the division function: 10 / 5 =", x / y);
   };
 }
 
