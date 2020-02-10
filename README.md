@@ -19,6 +19,13 @@ To run the project enter:
 ## Wiki: 
 Documentation and explanation about all exercise are be described on: [Wiki](https://github.com/danieladuarteng/studying-js/wiki)
 
+## Project:
+To follow the evolution of this repository see: [Project](https://github.com/danieladuarteng/studying-js/projects/1)
+
+## How to contribute to this project?
+
+Open [pull request](https://github.com/danieladuarteng/studying-js/compare) or [issue](https://github.com/danieladuarteng/studying-js/issues/new)
+
 ## License
 
 This project uses the license [MIT](https://choosealicense.com/licenses/mit/)
