@@ -1,64 +1,76 @@
 function challenge02() {
-  function soma(x, y) {
+  function sum(x, y) {
     return x + y;
   }
 
-  const resultado = soma(2, 4) + 5;
+  const result = sum(2, 4) + 5;
   console.log(
-    "Criei uma função chamada soma, que recebe dois parâmetros e retorna sua soma.\n" +
-      "Como declaro uma variável que recebe a invocação da função soma, passando dois números como argumentos e somando 5?\n" +
-      "Assim: const resultado = soma(2,4) + 5;\n"
+      "I created a function called 'sum', that receive two parameters and return your sum.\n" +
+      "How I declare a variable that receive the sum function with two parameters and add 5 more to your value?\n" +
+      "Thereby: const result = sum(2,4) + 5;\n"
   );
 
-  console.log("Qual o valor dessa variável?", resultado, "\n");
+  console.log("what is the value of this variable?", result, "\n");
 
-  let variavelSemValor;
+  let variableWithourValue;
 
-  function colocandoValor() {
-    variavelSemValor = "Agora tenho valor";
-    return "O valor da variável agora é: ", variavelSemValor + "\n";
+  function putValue() {
+    variableWithourValue = "Now I have value";
+    return "The variable value now is: ", variableWithourValue + "\n";
   }
 
   console.log(
-    "Como crio uma variável sem valor? \nUtilizando o let:  let variavelSemValor;\n"
+    "How I create a variable without value? \nUsing let:  let variableWithourValue;\n"
   );
 
   console.log(
-    "Agora criei uma função para colocar valor na minha variável, qual o valor dela?",
-    colocandoValor()
+    "Now I created a function for put value in my variable, what is value its?",
+    putValue()
   );
 
-  function multiplicacao(x, y, z) {
-    let message = "Preencha os valores corretamente!";
-    if (!x || !y || !z) {
-      return message;
+  function multiplication(x, y, z) {
+    let message = "Fill in the values ​​correctly!";
+    if (x && y && z) {
+      message = x * y * z + 2;
     }
-    return  message = (x * y * z) + 2;
+    return message;
   }
 
-  console.log("Função multiplicação sem um dos valores", multiplicacao(1, 2));
+  console.log("Função multiplicação sem um dos valores", multiplication(1, 2));
   console.log(
-    "Função multiplicação com todos os valores",
-    multiplicacao(1, 2, 3),
+    "\nMultplication function without one of values",
+    multiplication(1, 2, 3),
     "\n"
   );
 
-  function checaArgumentos(x, y, z) {
+  function checkArguments(x, y, z) {
     if (x && !y && !z) {
       return x;
     } else if (x && y && !z) {
       return x + y;
     } else if (x && y && x) {
       return (x + y) / z;
-    } else{
+    } else {
       return false;
-    } 
+    }
   }
 
-  console.log("Quando somente um argumento for passado, deve retornar o seu valor -> ", checaArgumentos(2));
-  console.log("Quando somente dois argumentos forem passados, deve retornar sua soma -> ", checaArgumentos(2, 3));
-  console.log("Quando todos argumentos forem passados, deve somar o primeiro valor com o segundo e dividir pelo terceiro ->", checaArgumentos(2, 3, 7));
-  console.log("Quando nenhum argumento for passado, deve retornar false -> ", checaArgumentos());
+  console.log(
+    "When only one argument is passed, should return your value -> ",
+    checkArguments(2)
+  );
+  console.log(
+    "When only two arguments are passed, should return your sum -> ",
+    checkArguments(2, 3)
+  );
+  console.log(
+    "When all arguments are passed, should sum the first with second value and divide by the third ->",
+    checkArguments(2, 3, 7)
+  );
+  console.log(
+    "When none argument is passed, should return false -> ",
+    checkArguments()
+  );
 }
 
 challenge02();

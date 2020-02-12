@@ -1,5 +1,5 @@
 function challenge01() {
-  let myVar; // usamos let aqui porque estou inicializando sem valor
+  let myVar; // here is used 'let' because initialized without value
 
   console.log(
     "How do I declare a variable called 'myVar', withou value? \nThereby: let myVar\n"
