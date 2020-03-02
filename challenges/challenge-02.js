@@ -36,7 +36,6 @@ function challenge02() {
     return message;
   }
 
-  console.log("Função multiplicação sem um dos valores", multiplication(1, 2));
   console.log(
     "\nMultplication function without one of values",
     multiplication(1, 2, 3),

@@ -23,6 +23,38 @@ function challenge03() {
   person.makeBirthday = function() {
     return ++person.age;
   };
+
+  console.log("Return of makeBirthday function", person.makeBirthday());
+
+  person.walk = function(metersWalked) {
+      person.walkedHowManyMeters += metersWalked;
+      person.walking = true;
+  }
+
+  console.log("Return of walk function", person.walk(3));
+
+  person.stop = function(){
+    return person.walking = false;
+  }
+
+  console.log("Return of stop function", person.stop());
+
+  person.fullName = function(){
+    return "Hello! My name is " + person.name + person.lastName;
+  }
+
+  console.log("Return of fullName function", person.fullName());
+
+  person.showAge = function(){
+    return "Hello, I'm " + person.age + "years old";
+  }
+
+  console.log("Return of showAge function", person.showAge());
+  
+
+
+
+
 }
 
 challenge03();
